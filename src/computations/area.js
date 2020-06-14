@@ -1,0 +1,3 @@
+function computeArea(shape) {
+    
+}

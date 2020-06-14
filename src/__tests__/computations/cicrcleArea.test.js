@@ -19,8 +19,16 @@ describe("circleArea", () => {
   it("should return 0 for non valid object", () => {
     const circle = {
     }
-    const area = circleArea(smallCircle);
-    
+    const area = circleArea(circle);
+
+    expect(area).toBe(0)
+  })
+
+  it("should return 0 for non valid radious", () => {
+    const circle = {
+    }
+    const area = circleArea(circle);
+
     expect(area).toBe(0)
   })
 })

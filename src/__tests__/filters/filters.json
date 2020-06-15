@@ -1,0 +1,27 @@
+[
+    {
+      "type": "filter",
+      "property": "area",
+      "operator": "lt",
+      "value": 250
+    },
+    {
+      "type": "filter",
+      "property": "area",
+      "operator": "in",
+      "value": [300, 600]
+    },
+    {
+      "type": "filter",
+      "property": "circumference",
+      "operator": "gt",
+      "value": 25
+    },
+    {
+      "type": "filter",
+      "property": "circumference",
+      "operator": "lt",
+      "value": 30
+    }
+  ]
+  

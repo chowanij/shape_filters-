@@ -4,7 +4,7 @@ const SQUARE = 'square';
 const CIRCLE = 'circle';
 const RECTANGLE = 'rectangle';
 
-const ALLOWED_SHAPES = [SQARE, CIRCLE, RECTANGLE];
+const ALLOWED_SHAPES = [SQUARE, CIRCLE, RECTANGLE];
 
 module.exports = {
     SQUARE,

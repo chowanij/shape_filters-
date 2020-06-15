@@ -15,3 +15,5 @@ function computeArea(shape) {
       return rectangleArea(shape);
   }
 }
+
+module.exports = computeArea;
